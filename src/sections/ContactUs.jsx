@@ -97,16 +97,13 @@ function ContactUs() {
 
           
      <iframe
-
-                src="https://www.google.com/maps?q=-25.6544,27.2558&output=embed"
-
-                className="w-full h-[285px] md:hg-[px]s rounded-2xl shadow-xl object-cover "
-
-                loading="lazy"
->
-               </iframe>
-
-      
+  			src="https://www.google.com/maps?q=18799+Boitekong+Ext+8,+Rustenburg,+South+Africa&z=15&output=embed"
+  			className="w-full h-[285px] md:h-[350px] rounded-2xl shadow-xl object-cover"
+  			loading="lazy"
+  			title="Dave Academy Location - Boitekong Ext 8"
+  			allowFullScreen=""
+  			referrerPolicy="no-referrer-when-downgrade"
+		></iframe>     
            </div>
       
         </a>
