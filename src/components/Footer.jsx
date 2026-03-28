@@ -48,7 +48,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent mb-3">
-              Dave Academy
+              St Dave Academy
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Unlocking your full academic potential through structured and results-driven tutoring.
@@ -76,8 +76,8 @@ function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="text-gray-400 text-sm space-y-2">
               <p>📍 Pretoria, South Africa</p>
-              <p>📞 +27 76 511 8408</p>
-              <p>📧 xenobyte012@gmail.com</p>
+              <p>📞 +27 64 182 2578</p>
+              <p>📧 stdaveacademy@gmail.com</p>
             </div>
 
             {/* Socials */}
@@ -100,12 +100,12 @@ function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           
-          <p>© {currentYear} Dave Academy. All rights reserved.</p>
+          <p>© {currentYear} St Dave Academy. All rights reserved.</p>
 
           <p>
             Designed by{" "}
             <a
-              href="https://xenobyte.co.za"
+              href="https://xenobytewebstudio.co.za"
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-500 hover:text-orange-400 transition"

@@ -62,12 +62,12 @@ function ContactUs() {
 
             <div>
               <h3 className="font-semibold text-lg">📞 Call Us</h3>
-              <p className="text-gray-400">076 511 8408</p>
+              <p className="text-gray-400">064 182 2578</p>
             </div>
 
             <div>
               <h3 className="font-semibold text-lg">📧 Email</h3>
-              <p className="text-gray-400">xenobyte012@gmail.com</p>
+              <p className="text-gray-400">stdaveacademy@gmail.com</p>
             </div>
 
             <div>
