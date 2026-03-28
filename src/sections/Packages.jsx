@@ -75,9 +75,9 @@ export default function Pricing() {
             </ul>
             <button
               onClick={scrollToContact}
-              className="w-full py-2 rounded-xl font-semibold bg-amber-500 text-heading-2"
+              className="w-full py-3 rounded-xl font-semibold bg-amber-500 text-heading-2"
             >
-              Choose Plan
+              Enroll Now
             </button>
           </div>
         ))}
