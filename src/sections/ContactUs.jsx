@@ -83,6 +83,36 @@ function ContactUs() {
             </div>
 
             {/* Image */}
+        <a
+ href="https://maps.google.com"
+        
+           target="_blank"
+ 
+           rel="noopener noreferrer"
+        
+           className="block mt-8"
+>
+
+           <div className="overflow-hidden rounded-xl shadow-lg">
+
+          
+     <iframe
+
+                src="https://www.google.com/maps?q=-25.6544,27.2558&output=embed"
+
+                className="w-full h-[285px] md:hg-[px]s rounded-2xl shadow-xl object-cover "
+
+                loading="lazy"
+>
+               </iframe>
+
+      
+           </div>
+      
+        </a>
+
+ 
+          {/*
             <div>
               <img
                 src={contactImage}
@@ -90,7 +120,7 @@ function ContactUs() {
                 className="rounded-2xl shadow-xl w-full h-[285px] object-cover"
               />
             </div>
-
+          */}
           </div>
         </div>
       </div>
