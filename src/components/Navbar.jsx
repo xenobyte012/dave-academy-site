@@ -2,14 +2,14 @@ import React from "react";
 import { useState } from "react";
 import burgerMenu from "../images/burger-bar.png";
 import closeButton from "../images/close.webp";
-import logo from "../images/logo.jpeg";
+import logo from "../images/testlogo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <nav className="fixed z-1000 hidden md:flex item-center bg-amber-500 text-gray-100 py-4 px-4 justify-between items-center w-full  ">
-        <div className="text-4xl  font-bold tracking-wide flex flex-row">
+        <div className="text-3xl  font-bold tracking-wide flex flex-row">
           <img src={logo} alt="logo image" className="h-[46px] w-[46px]" /> <div >St Dave Academy</div>
         </div>
         <div className=" flex gap-4 text-xl ">
