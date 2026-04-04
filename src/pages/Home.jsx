@@ -2,7 +2,6 @@ import React from 'react'
 import HeroSection from '../sections/HeroSection';
 import Navbar from '../components/Navbar';
 import AboutUs from '../sections/AboutUs';
-import Testimonials from "../sections/Testimonials";
 import Subjects from '../sections/Subjects';
 import Footer from '../components/Footer'
 import ServiceSection from '../sections/ServiceSection';
@@ -18,16 +17,13 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <AboutUs />
+      <Packages />
+      <Subjects />
+      <ContactUs />
       <Version />
       <CoreValues />
       <ServiceSection />
-      <Packages />
-	<Subjects />
-	<WhyChooseUs />
-      <Testimonials />
-      
-      
-      <ContactUs />
+      <WhyChooseUs />   
       <Footer />
     </div>
   );

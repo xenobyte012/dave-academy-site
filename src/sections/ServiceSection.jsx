@@ -4,19 +4,19 @@ import ourGoalsImage from "../images/ct (2).jpg";
 const services = [
   {
     title: "Primary School Tutoring",
-    icon: "📘",
+    
     description:
       "Build strong foundations in literacy, numeracy, and study skills.",
   },
   {
     title: "High School Tutoring",
-    icon: "🎓",
+    
     description:
       "Subject-specific support for exams, essays, and advanced topics.",
   },
   {
     title: "Exam Preparation",
-    icon: "📝",
+    
     description:
       "Final exams and test strategies that actually improve results.",
   },
@@ -28,13 +28,13 @@ const services = [
   },
   {
     title: "One-on-One Sessions",
-    icon: "👩‍🏫",
+    
     description:
       "Tailored pace with full attention on the student.",
   },
   {
     title: "Group Classes",
-    icon: "👥",
+    
     description:
       "Collaborative learning that builds confidence and engagement.",
   },
@@ -78,8 +78,8 @@ function ServiceSection() {
                 key={index}
                 className="bg-slate-900 p-5 rounded-2xl shadow-md hover:shadow-xl transition"
               >
-                <h3 className="text-lg font-semibold text-heading-1 mb-2 flex items-center gap-2">
-                  <span>{service.icon}</span>
+                <h3 className="text-lg font-semibold text-gray-200 mb-2 flex items-center ">
+                 
                   {service.title}
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">

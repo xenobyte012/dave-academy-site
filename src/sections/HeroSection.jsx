@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import heroImage from '../images/hero-img.jpg'
 
 function HeroSection() {
@@ -27,9 +27,6 @@ function HeroSection() {
             Affordable, high‑quality tutoring that builds confidence, sharpens
             skills, and turns “I can’t”
           </div>
-          <div className="text-xl text-center pt-10 ">
-            ⭐ 98% of parents recommend us | 200+ students supported
-          </div>
         </div>
         <div>
           <div className="absolute bottom-10  w-full flex justify-center ">
@@ -46,7 +43,7 @@ function HeroSection() {
         <img
           src={heroImage}
           alt="hero image"
-          className="w-full  object-cover h-180"
+          className="w-full  object-cover h-170"
         />
         <div className="absolute top-50 h-full left-10 w-1/2 flex flex-col justify-left ">
           <div className="text-6xl text-white font-bold leading-tight">
@@ -55,9 +52,6 @@ function HeroSection() {
           <div className=" text-sub-heading-2 text-xl font-medium leading-relaxed pt-5">
             Affordable, high‑quality tutoring that builds confidence, sharpens
             skills, and turns “I can’t” into “I did.”
-          </div>
-          <div className="text-xl text-center pt-15 ">
-            ⭐ 98% of parents recommend us | 200+ students supported
           </div>
         </div>
         <div>

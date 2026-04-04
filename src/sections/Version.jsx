@@ -28,9 +28,8 @@ function Version() {
                 Vision
               </h3>
               <p className="text-normal-text-2 text-sm leading-relaxed">
-                A world where every learner — regardless of background — has access
-                to education that sparks curiosity and prepares them for life beyond
-                the classroom.
+                
+Our vision is solely focused on creating a tutoring academy where education is goes beyond textbooks, extra lessons and prepares learners to 		face the real world and solve problems, create opportunities and bring up a positive contribution to the growth and development of their 		community and the nation.
               </p>
             </div>
 
@@ -40,8 +39,7 @@ function Version() {
                 Mission
               </h3>
               <p className="text-normal-text-2 text-sm leading-relaxed">
-                To deliver accessible, high-impact tutoring that builds academic
-                mastery, critical thinking, and unstoppable confidence.
+                Our mission is to provide an education that connects learning with real life challenges and economic opportunities. We are committed to equipping our learners with practical skills, critical thinking, entrepreneurship, technological knowledge and strong values at an affordable price which anyone can afford.
               </p>
             </div>
 
@@ -52,11 +50,11 @@ function Version() {
               </h3>
 
               <div className="text-normal-text-2 text-sm space-y-2">
-                <p>📘 Excellence – We set high standards, then go beyond them.</p>
-                <p>🤝 Integrity – Honest communication, transparent pricing.</p>
-                <p>🚀 Growth – We celebrate progress, not just perfection.</p>
-                <p>💡 Innovation – Modern methods, interactive tools.</p>
-                <p>❤️ Community – A space where students and families belong.</p>
+                <p><span className="text-gray-50 font-semibold">Excellence</span> – We set high standards, then go beyond them.</p>
+                <p><span className="text-gray-50 font-semibold ">Integrity</span> – Honest communication, transparent pricing.</p>
+                <p><span className="text-gray-50 font-semibold">Growth </span>– We celebrate progress, not just perfection.</p>
+                <p><span className="text-gray-50 font-semibold">Innovation</span> – Modern methods, interactive tools.</p>
+                <p><span className="text-gray-50 font-semibold">Community</span> – A space where students and families belong.</p>
               </div>
             </div>
           </div>
@@ -66,7 +64,7 @@ function Version() {
             <img
               src={ourGoalsImage}
               alt="Our Goals"
-              className="w-full h-[450px] object-cover rounded-2xl shadow-xl"
+              className="w-full h-[560px] object-cover rounded-2xl shadow-xl"
             />
           </div>
         </div>
