@@ -1,4 +1,5 @@
 ﻿import React from 'react'
+//import heroImage from '../images/logo.jpeg'
 import heroImage from '../images/hero-img.jpg'
 
 function HeroSection() {

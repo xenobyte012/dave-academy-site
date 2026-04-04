@@ -2,26 +2,27 @@ import React from "react";
 import { useState } from "react";
 import burgerMenu from "../images/burger-bar.png";
 import closeButton from "../images/close.webp";
+import logo from "../images/logo.jpeg";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <nav className="fixed z-1000 hidden md:flex item-center bg-amber-500 text-gray-100 py-4 px-4 justify-between items-center w-full  ">
-        <div className="text-4xl  font-bold tracking-wide ">
-          St Dave Academy
+        <div className="text-4xl  font-bold tracking-wide flex flex-row">
+          <img src={logo} alt="logo image" className="h-[46px] w-[46px]" /> <div >St Dave Academy</div>
         </div>
         <div className=" flex gap-4 text-xl ">
           <span className="hover:text-blue-600">
             <a href="#home">Home</a>
           </span>
-          <span className="hover:text-blue-600">
-            <a href="#about">About</a>
-          </span>
+
           <span className="hover:text-blue-600">
             <a href="#pricing">Pricing</a>
           </span>
-
+          <span className="hover:text-blue-600">
+            <a href="#about">About</a>
+          </span>
           <span className="hover:text-blue-600">
             <a href="#contact">Contact</a>
           </span>
@@ -36,9 +37,9 @@ function Navbar() {
               className="w-10 mr-2 "
               onClick={() => setIsOpen(!isOpen)}
             />
-            <div className="text-3xl  font-bold tracking-wide ">
-              St Dave Academy
-            </div>
+        <div className="text-3xl  font-bold tracking-wide items-center gap-1 flex flex-row">
+          <img src={logo} alt="logo image" className="h-[46px] w-[46px]" /> <div >St Dave Academy</div>
+        </div>
           </div>
         </div>
       </div>
@@ -69,13 +70,14 @@ function Navbar() {
               className="hover:text-blue-600"
               onClick={() => setIsOpen(false)}
             >
-              <a href="#about">About</a>
+              <a href="#pricing">Pricing</a>
             </span>
+
             <span
               className="hover:text-blue-600"
               onClick={() => setIsOpen(false)}
             >
-              <a href="#pricing">Pricing</a>
+              <a href="#about">About</a>
             </span>
             <span
               className="hover:text-blue-600"
