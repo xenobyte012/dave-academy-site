@@ -10,7 +10,7 @@ function Navbar() {
     <>
       <nav className="fixed z-1000 hidden md:flex item-center bg-amber-500 text-gray-100 py-4 px-4 justify-between items-center w-full  ">
         <div className="text-3xl  font-bold tracking-wide flex flex-row">
-          <img src={logo} alt="logo image" className="h-[46px] w-[46px]" /> <div >St Dave Academy</div>
+           <div >Tutoring Academy</div>
         </div>
         <div className=" flex gap-4 text-xl ">
           <span className="hover:text-blue-600">
@@ -38,7 +38,7 @@ function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
             />
         <div className="text-3xl  font-bold tracking-wide items-center gap-1 flex flex-row">
-          <img src={logo} alt="logo image" className="h-[46px] w-[46px]" /> <div >St Dave Academy</div>
+          <img src={logo} alt="logo image" className="h-[46px] w-[46px]" /> <div >Tutoring Academy</div>
         </div>
           </div>
         </div>

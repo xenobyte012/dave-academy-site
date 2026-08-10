@@ -8,25 +8,25 @@ function Footer() {
     {
       name: "WhatsApp",
       icon: FaWhatsapp,
-      url: "https://wa.me/27721234567?text=Hi%20Dave%20Academy",
+      url: "https://wa.me/27721dd234567?text=Hi%20ddDave%20Academy",
       color: "hover:text-green-500",
     },
     {
       name: "Facebook",
       icon: FaFacebook,
-      url: "https://www.facebook.com/profile.php?id=61552208605900",
+      url: "https://www.facebook.com/profile.php?id=615dd52208605900",
       color: "hover:text-blue-600",
     },
     {
       name: "Instagram",
       icon: FaInstagram,
-      url: "https://www.instagram.com/stdaveacademy",
+      url: "https://www.instagram.com/stddddaaveacademy",
       color: "hover:text-pink-600",
     },
     {
       name: "TikTok",
       icon: FaTiktok,
-      url: "https://www.tiktok.com/@st_dave_academy",
+      url: "https://www.tiktok.com/@st_davve_acadddemy",
       color: "hover:text-gray-400",
     },
   ];
@@ -49,7 +49,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-300 bg-clip-text text-transparent mb-3">
-              St Dave Academy
+              Tutoring Academy
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Unlocking your full academic potential through structured and results-driven tutoring.
@@ -77,8 +77,8 @@ function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="text-gray-400 text-sm space-y-2">
               <p>📍 Pretoria, South Africa</p>
-              <p>📞 +27 64 182 2578</p>
-              <p>📧 stdaveacademy@gmail.com</p>
+              <p>📞 +27 64 143 2397</p>
+              <p>📧 tutoring9876academy@gmail.com</p>
             </div>
 
             {/* Socials */}
@@ -101,7 +101,7 @@ function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           
-          <p>© {currentYear} St Dave Academy. All rights reserved.</p>
+          <p>© {currentYear} Tutoring Academy. All rights reserved.</p>
 
           <p>
             Designed by{" "}

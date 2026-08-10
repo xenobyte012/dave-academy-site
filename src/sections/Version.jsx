@@ -1,5 +1,5 @@
 ﻿import React from "react";
-import ourGoalsImage from "../images/ct (2).jpg";
+const ourGoalsImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_YeB3MI_GCq3Ycgpyd1xvPkt4IbgbQQVJB8Ug8Mh9fCtSe5f4DJHAEoej&s=10";
 
 function Version() {
   return (

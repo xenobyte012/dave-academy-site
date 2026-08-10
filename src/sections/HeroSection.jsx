@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 //import heroImage from '../images/logo.jpeg'
-import heroImage from '../images/hero-img.jpg'
+// 
+const heroImage = 'https://jobsineducation.mysmartjobboard.com/files/userfiles/Online%20Tutoring.jpg'
 
 function HeroSection() {
   const scrollToContact = () => {

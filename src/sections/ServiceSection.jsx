@@ -1,5 +1,5 @@
 ﻿import React from "react";
-import ourGoalsImage from "../images/ct (2).jpg";
+const ourGoalsImage = "https://static.vecteezy.com/system/resources/thumbnails/027/164/088/small/our-service-banner-design-free-vector.jpg";
 
 const services = [
   {
